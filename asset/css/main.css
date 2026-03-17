@@ -9,6 +9,10 @@
     --gray-dark:#021526;
 }
 
+*,*::after,*::before{
+    box-sizing:inherit ;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -181,4 +185,57 @@ a:hover {
     margin-right: 5px;
     font-size: 1.2rem;
     margin-top: 15px;
+}
+
+
+
+/*Contacto*/ 
+
+.title {
+    color: var(--white-gray);
+    font-size: 2em;
+}
+
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+input[type="text"],[type="email"] {
+    width: 100%;
+    border: 1px solid var(--black);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    border: 1px solid var(--black);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.padding50x {
+padding: 20px 30px;
+}
+
+
+input[type="submit"] {
+    background-color: var(--secundary-color);
+    color: var(--white-gray);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    margin: auto;
+    width: 80%;
 }
