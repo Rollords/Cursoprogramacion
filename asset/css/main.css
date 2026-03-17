@@ -54,38 +54,39 @@ a:hover {
 }
 
 
-.container-fluid {
+.quienes-somos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 0 50px;
+    margin-bottom: 30px;
 }
 
 .container-photo {
     width: 600px;
 }
 
-.col {
+.col-quienes_somos {
     text-align: center;
 }
 
-.col h2 {
+.col-quienes_somos h2 {
     font-size: 3rem;
     color: var(--secundary-color);
 }
 
-.col p {
+.col-quienes_somos p {
     font-size: 1.25rem;
     font-weight: 400;
 }
 
-.col ul {
+.col-quienes_somos ul {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.col ul li {
+.col-quienes_somos ul li {
     font-size: 1.2rem;
 }
 
@@ -105,4 +106,79 @@ a:hover {
     background-color: var(--gray-dark);
     cursor: pointer;
     transition: 0.5s;
+}
+
+/*Servicios*/
+
+.container-fluid {
+    width: 100%;
+}
+
+.servicios-style{
+    background-color: var(--gray-dark);
+    color: var(--white);
+    padding: 20px;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+
+.servicios {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon-color {
+    color: var(--terciary-color);
+}
+
+.icon-color:hover {
+    color: var(--secundary-color);
+    transition: 0.5s;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    row-gap: 20px;
+}
+
+.logo-footer {
+    width: 300px;
+}
+
+.black {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer .col h3 {
+    color: var(--white-gray);
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: var(--white-gray);
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.social-icons a:hover {
+    color: var(--white);
+}
+
+.footer .col ul li i {
+    margin-right: 5px;
+    font-size: 1.2rem;
+    margin-top: 15px;
 }
