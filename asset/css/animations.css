@@ -1,0 +1,68 @@
+.box1{
+    width: 150px;
+    height: 150px;
+    color: rgb(255, 0, 0);
+    animation: box1;
+    animation-duration:2s;
+    position: relative;
+}
+.box2 {
+    width: 150px;
+    height: 150px;
+    color: rgb(0, 136, 255);
+    animation: box2;
+    animation-duration:3s;
+    position: relative;
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    color: rgb(21, 255, 0);
+    animation: box3;
+    animation-duration:4s;
+    position: relative;
+}
+.box4 {
+    width: 150px;
+    height: 150px;
+    color: rgb(255, 0, 204);
+    animation: box4;
+    animation-duration:5s;
+    position: relative;
+}
+
+i{
+    font-size: 4rem;
+}
+
+.linea {
+    height: 60vh;
+    width: 10px;
+    border-left: 10px dashed rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 550px;
+}
+
+/*@keyframes box {
+    from{background-color: aqua;}
+    to{background-color: blueviolet;}
+    
+}*/
+
+@keyframes box1 {
+    0%{ left: 0px; top:0px}
+    100%{left: 600px; top:0px}
+}
+@keyframes box2 {
+    0%{ left: 0px; top:0px}
+    100%{left: 600px; top:0px}
+}
+@keyframes box3 {
+    0%{ left: 0px; top:0px}
+    100%{left: 600px; top:0px}
+}
+@keyframes box4 {
+    0%{ left: 0px; top:0px}
+    100%{left: 600px; top:0px}
+}
