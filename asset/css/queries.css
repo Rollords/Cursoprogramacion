@@ -1,0 +1,77 @@
+/*
+    2. Tablets (breakpoints: 768px a 1023px)
+    cambiamos el diseño a algo mas ancho.
+*/
+@media (min-width:768px) {
+
+    /*Quienes Somos*/
+    .quienes-somos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 0 50px;
+        margin-bottom: 30px;
+}
+    /*Servicios*/
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 40px;
+        row-gap: 60px;
+    }
+    /*Footer*/
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 30px;
+    }
+    /*Contacto*/
+    .contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mapa {
+    height: 400px;
+    
+}
+
+}
+/*
+    1. Desktop (breakpoints: 1024px en adelante)
+    Diseño para apntallas grandes.
+*/
+@media (min-width:1024px) {
+    
+    /*Quienes Somos*/
+    .quienes-somos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 0 50px;
+        margin-bottom: 30px;
+}
+    /*Servicios*/
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 40px;
+        row-gap: 60px;
+    }
+    /*Footer*/
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 30px;
+    }
+    /*Contacto*/
+    .contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mapa {
+    height: 400px;
+    
+}
+}

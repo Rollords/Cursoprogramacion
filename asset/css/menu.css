@@ -1,0 +1,25 @@
+header {
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+.logo {
+    width: 200px;
+}
+.main-menu {
+    display: flex;
+    gap: 15px;
+}
+.main-menu li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+}
+.main-menu li a:hover {
+    color: var(--white-gray);
+}
