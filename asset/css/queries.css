@@ -7,7 +7,7 @@
     /*Quienes Somos*/
     .quienes-somos {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto;
         align-items: center;
         padding: 0 50px;
         margin-bottom: 30px;
@@ -15,14 +15,14 @@
     /*Servicios*/
     .servicios {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         margin-top: 40px;
         row-gap: 60px;
     }
     /*Footer*/
     .footer {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 30px;
     }
     /*Contacto*/
