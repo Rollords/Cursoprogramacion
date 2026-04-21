@@ -15,6 +15,31 @@
     font-size: 21px;
 }
 
+<<<<<<< HEAD
 .blog_a {
     color: var(--black);
+=======
+.blog .col a {
+    color: var(--black);
+}
+
+.blog-article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.blog-titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.blog-img {
+    height: 500px;
+    border-radius: 10px;
+>>>>>>> 9eb2e75b906b81d610e7677ce85c1b541ee232fc
 }
