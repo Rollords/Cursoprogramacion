@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <meta name="description" content="Ejemplo de Bootstrap para el curso EnDigital">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-1" href="#">Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active fs-2" aria-current="page" href="bootstrap.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link fs-2" href="#">Quienes somos</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item fs-2" href="#">Desarrollo de App</a></li>
+                <li><a class="dropdown-item fs-2" href="#">Landing Page</a></li>
+                <li><a class="dropdown-item fs-2" href="#">E-Commerce</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link fs-2">Contacto</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/programer1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/programer2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/programer3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 p-3">
+            <img src="img/team.png" alt="team" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <h2>Quienes Somos</h2>
+            <p>Somos un equipo de jovenes profesionales amantes de la tecnologia, que brinda el servicio de desarrollo de sitios web, apps, mantenimiento y formaciones.</p>
+            <ul>
+                <li>One Page</li>
+                <li>E-commerce -Tienda En Linea</li>
+                <li>Apss</li>
+                <li>Mantenimiento Web-Mensual</li>
+                <li>Formaciones Completas</li>
+            </ul>
+
+            <button class="btn btn-danger">Conversemos</button>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid bg-primary bg-gradient text-white text-center p-5 mt-5">
+        <h2 class="text-center">Conoce Nuestros Servicios</h2>
+        <p class="text-center mb-5">Te brindamos una gran gama de sercivios, adaptados a tus necesidades</p>
+
+        <div class="row row-gap-4">
+            <div class="col-4">
+                <h3>Landing Page</h3>
+                <p>Creamos paginas de aterrizaje que impulsan tus ventas</p>   
+            </div>
+            <div class="col-4">
+                <h3>E-Commerce</h3>
+                <p>Desarrollamos tiendas en linea a medida</p>
+            </div>
+            <div class="col-4">
+                <h3>Apps</h3>
+                <p>Desarrollo de Apps tanto para Android como IOS</p>
+            </div>
+
+            <!--Fin del primera fila-->
+
+            <div class="col-4">
+                <h3>Redes</h3>
+                <p>Implementacion de redes LAN</p>   
+            </div>
+            <div class="col-4">
+                <h3>Formaciones</h3>
+                <p>Brindamos capacitacion para el desarrollo de Apps y Sistemas</p>
+            </div>
+            <div class="col-4">
+                <h3>Mantenimiento Web</h3>
+                <p>Tu sitio web requiere mantenimiento y nosotros te la brindamos!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-4 mb-4 fs-5">
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nunca compatiremos tu email con alguien mas.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">De acuerdo con los terminos y condiciones.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <img src="img/programer3.jpg" alt="Programador" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

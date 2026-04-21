@@ -14,3 +14,7 @@
 .blog h2 {
     font-size: 21px;
 }
+
+.blog_a {
+    color: var(--black);
+}
